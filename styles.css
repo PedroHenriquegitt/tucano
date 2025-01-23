@@ -49,8 +49,36 @@ body {
 width: auto;
 
     }
-    @media {
-        a, a:visited {
-            padding: 3px 30px;
+     @media screen and (max-width: 500px) {
+        header {
+            padding: 20px;
+        }
+    
+        h1 {
+            font-size: 25px;
+        }
+    
+        nav {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        a {
+            padding: 5px 10px;
+            font-size: 16px;
+        }
+    
+        article {
+            padding: 10px;
+        }
+    
+        figure img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            font-size: 14px;
+            padding: 5px;
         }
     }
